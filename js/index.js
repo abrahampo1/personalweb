@@ -142,4 +142,8 @@ setInterval(cpu_usage, 850)
 // deep owon't
 function deep(){
   setInterval(draw, 33);
+    $('.window').hide();
+
+  $('#deep-window').show();
+
 }

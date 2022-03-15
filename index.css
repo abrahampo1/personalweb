@@ -207,3 +207,87 @@ cursor: pointer;
     height: 100%;
 
 }
+
+/* Deep window */
+#deep-window{
+    min-width: 1000px;
+    min-height: 600px;
+    max-width: 1000px;
+    max-height: 600px;
+    overflow: none;
+    background: url(/svg/pirata.svg) repeat-y 99%, url(/svg/pirata.svg) repeat-y 10px;
+    background-size: 30px;
+    background-color: #ece9d8;
+    
+}
+
+#deep-window fieldset{
+    margin: 0px 50px 0px 50px;
+    background: url('/svg/marihuana.svg') repeat-x bottom;
+    background-size: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+#deep-window header p{
+    font-size: 150%;
+    margin: 20px 0px 0px 70px;
+}
+
+#deep-window legend{
+    font-size: 130%;
+}
+
+#deep-window .deep-check{
+    margin: 40px 0px 0px 10px;
+}
+
+#deep-window .tor-img{
+    float: right;
+    width: 15%;
+    margin: 0px 30px 30px 5px;
+}
+
+#deep-window .onion-links p{
+    font-size: 150%;
+
+}
+
+#deep-window .onion-links span{
+    margin: -5px 0px 0px 0px;
+}
+
+#deep-window .final-text{
+    margin: 20px 60px 0px 60px;
+    width: 500px;
+    height: 150px;
+    float: left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#deep-window .form-msg{
+    margin-right: 50px;
+    width: 270px;
+    float: right;
+}
+
+.form-msg .name{
+    margin: 20px 0px 0px 14px;
+    width: 300px;
+}
+
+.form-msg .post-boton{
+    margin: 25px 0px 0px 22px;
+}
+
+.form-msg .textarea{
+    resize: none;
+    width: 200px;
+    height: 80px;
+    margin: 0px 0px 0px 55px;
+}
+
+.form-msg select{
+    width: 100px;
+    margin: 10px 0px 0px 55px;
+}
