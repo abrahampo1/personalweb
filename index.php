@@ -222,7 +222,12 @@
                         $do = mysqli_query($link, $sql);
 
                         while ($comentarios = mysqli_fetch_assoc($do)){
-                            echo('<p>'.$comentarios['user'].' says: '. $comentarios['comentario'].'</p>');
+                            $mensaje = '<p>'.$comentarios['user'].' says: '. $comentarios['comentario'].'</p>';
+
+                            if (str_contains($mensaje, '<')) {
+                                echo "Checking the existence of the empty string will always return true";
+                            }
+
                         }
 
                     ?>
