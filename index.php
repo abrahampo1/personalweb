@@ -24,9 +24,6 @@
                     <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngmart.com%2Ffiles%2F3%2FWindows-XP-PNG-Photos.png&f=1&nofb=1" alt="" srcset="">
                     <div class="start-text">Start</div>
                 </button>
-                <a class="tiny-icon" href="https://github.com/xenonxss">
-                    <img src="http://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/d7e4e1e509c728d.png" alt="" srcset="">
-                </a>
                 <a class="tiny-icon" href="https://www.youtube.com/channel/UCE25-Jd9ci7dHVxJQS-EteQ">
                     <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpixelartmaker.com%2Fart%2F044930b3e24e596.png&f=1&nofb=1" alt="" srcset="">
                 </a>
