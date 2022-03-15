@@ -4,13 +4,29 @@
 
 body{
     background: #000;
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercave.com%2Fwp%2FYHSuCPt.jpg&f=1&nofb=1') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     overflow: hidden;
+}
+
+body, html{
+    height: 100%;
+
 }
 
 canvas{
     display: block;
     position: absolute;
     z-index: -1;
+}
+
+
+/* Defaults */
+
+.topmost{
+    z-index: 100;
 }
 
 /* Header nav */
