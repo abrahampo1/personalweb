@@ -1,8 +1,8 @@
 <?php
     include 'database.php';
 
-    if(isset($_POST['name']) & isset($_POST['comment']) & isset($_POST['valoracion']) ){
-        $name = $_POST['name'];
+    if(isset($_POST['user']) & isset($_POST['comment']) & isset($_POST['valoracion']) ){
+        $name = $_POST['user'];
         $comment = $_POST['comment'];
         $val = $_POST['valoracion'];
         $ip = $_SERVER['REMOTE_ADDR'];
