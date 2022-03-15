@@ -223,8 +223,7 @@
 
                         while ($comentarios = mysqli_fetch_assoc($do)){
                             $mensaje = '<p>'. htmlspecialchars($comentarios['user']).' says: '. htmlspecialchars($comentarios['comentario']).'</p>';
-
-
+                            echo $mensaje;
                         }
 
                     ?>
