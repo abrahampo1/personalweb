@@ -9,4 +9,11 @@
     if (!$link) {
           die("Connection failed: " . mysqli_connect_error());
     }
+
+    $sql = 'SELECT * FROM `blog_comentarios`';
+    $do = mysqli_query($link, $sql);
+    $resultado = mysqli_fetch_assoc($do);
+    
+    var_dump($resultado);
+
 ?>
