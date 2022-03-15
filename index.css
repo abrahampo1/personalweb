@@ -1,0 +1,123 @@
+*{
+    margin: 0; padding: 0
+}
+
+body{
+    background: #000;
+    overflow: hidden;
+}
+
+canvas{
+    display: block;
+    position: absolute;
+    z-index: -1;
+}
+
+/* Header nav */
+#navbaruwu{
+   
+    z-index: 9;
+}
+
+header nav{
+    overflow:hidden;
+    position: absolute;
+    text-align: center;
+    background-color: rgba(25, 218, 0, 0.405);
+    border: solid rgb(0, 255, 42) 1px;
+    border-left: none;
+    border-right: none;
+    width: 30%;
+    height: 7%;
+}
+
+header nav li{
+    list-style: none;
+    display: inline;
+    padding: 0px 0px 0px 10px;
+    margin-left: 0%;
+}
+
+.imageli{
+    padding: 10px 4% 0px 4%;
+    border-left: solid black 2px;
+    
+}
+
+    .home{
+        width: 8%;
+        border-left: none;
+    }
+
+    .social{
+        width: 6%;
+    }
+
+    .comments{
+        width: 8%;
+    }
+
+    .help{
+        width: 7%;
+    }
+
+/* Windows */
+.window{
+    position: absolute;
+}
+
+.title-bar{
+    cursor: move;
+}
+
+/* main window */
+#main-window{
+    width: 50%;
+    overflow: auto;
+    z-index: 2;  
+    position: absolute; 
+}
+
+#mood{
+    width: 500px;
+    float: left;
+}
+
+#lista{
+    float: right;
+    width: 300px;
+    overflow-y: scroll;
+    margin: 20px;
+    height: 193px;
+}
+
+#tab-A{
+    height: 50%px;
+}
+
+.Profile{
+    border: solid rgb(141, 141, 141) 2px;
+    width: 20%;
+    padding: 0px;
+    margin: 1px 5px 5px 5px;
+    float: right;
+}
+
+section{
+    font-size: 120%;
+    margin: 10px;
+    height: 50%px;
+}
+
+.field-row{
+    width: 200px;
+}
+
+/* Help window */
+
+#help-window{
+    width: 300px;
+    z-index: 9;
+    background: url('/svg/android-logo.svg') repeat-x;
+   
+}
