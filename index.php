@@ -222,7 +222,7 @@
                         $do = mysqli_query($link, $sql);
 
                         while ($comentarios = mysqli_fetch_assoc($do)){
-                            echo('<p>'.$comentarios['comentario'].'</p>');
+                            echo('<p>'.$comentarios['user'].' says:'. $comentarios['comentario'].'</p>');
                         }
 
                     ?>
