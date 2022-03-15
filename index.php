@@ -224,9 +224,6 @@
                         while ($comentarios = mysqli_fetch_assoc($do)){
                             $mensaje = '<p>'. htmlspecialchars($comentarios['user']).' says: '. htmlspecialchars($comentarios['comentario']).'</p>';
 
-                            if (str_contains($mensaje, '<')) {
-                                echo "Checking the existence of the empty string will always return true";
-                            }
 
                         }
 
