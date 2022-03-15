@@ -17,18 +17,19 @@ canvas{
 #navbaruwu{
    
     z-index: 9;
+
 }
 
 header nav{
     overflow:hidden;
     position: absolute;
+    left: 0px;
+    bottom: 0px; 
     text-align: center;
-    background-color: rgba(25, 218, 0, 0.405);
-    border: solid rgb(0, 255, 42) 1px;
-    border-left: none;
-    border-right: none;
-    width: 30%;
-    height: 7%;
+    background: linear-gradient(180deg,#0997ff,#0053ee 8%,#0050ee 40%,#06f 88%,#06f 93%,#005bff 95%,#003dd7 96%,#003dd7);width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
 }
 
 header nav li{
@@ -76,6 +77,7 @@ header nav li{
     overflow: auto;
     z-index: 2;  
     position: absolute; 
+    min-width: 600px;
 }
 
 #mood{
@@ -120,4 +122,72 @@ section{
     z-index: 9;
     background: url('/svg/android-logo.svg') repeat-x;
    
+}
+
+/* Button */
+
+.homebtn{
+    color: whitesmoke
+    ;
+    padding-left: 10px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-right: 10px;
+    border-radius: 0px 8% 8% 0px/ 0px 48% 48% 0px ;
+    background: none;
+    background-color: greenyellow !important;
+    box-shadow: 0px 0px 87px -16px rgba(0,0,0,0.75) inset;
+    -webkit-box-shadow: 0px 0px 87px -16px rgba(0,0,0,0.75) inset;
+    -moz-box-shadow: 0px 0px 87px -16px rgba(0,0,0,0.75) inset}
+
+.homebtn img{
+    height: 100%;
+    margin-right: 10px;
+}
+
+
+.start-text{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.tiny-icon{
+
+height: 20px;
+width: 20px !important;
+min-width: 0px !important;
+border-radius: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 5px;
+margin-left: 5px;
+background-color:transparent !important;
+border: none;
+background: none;
+cursor: pointer;
+
+}
+
+.tiny-icon:hover{
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    background-color: #003dd7 !important;
+}
+
+.tiny-icon:active{
+    outline: none !important;
+    border: none !important;
+    background: none !important;
+    box-shadow: none !important;
+    background-color: #326bfa !important;
+}
+
+.tiny-icon img{
+    height: 100%;
+
 }
