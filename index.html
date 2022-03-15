@@ -215,16 +215,16 @@
                     <hr>
                     <br>
                 </ul>
-                <div class="form-msg">
+                <form action="api.php" method="post" class="form-msg">
                     <div class="field-row name">
                         <label for="text21">Name (Default: Anonymous)</label>
-                        <input id="text21" type="text"/>
+                        <input id="text21" name="user" type="text"/>
                       </div>
                     <div class="field-row-stacked" style="width: 200px">
                         <label for="text24"></label>
-                        <textarea id="text24" rows="8" class="textarea"></textarea>
+                        <textarea id="text24" rows="8" class="textarea" name="comment"></textarea>
                     </div>
-                    <select>
+                    <select name="valoracion">
                         <option>5 - Incredible!</option>
                         <option>4 - Great!</option>
                         <option>3 - Pretty good</option>
@@ -232,7 +232,7 @@
                         <option>1 - Oof</option>
                       </select>
                     <button class="post-boton">POST</button>
-                </div>
+                </form>
             </section>
         </div>
     </div>
