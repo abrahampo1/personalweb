@@ -1,3 +1,6 @@
+<?
+    include('database.php');
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -214,6 +217,15 @@
                     <li><strong style="color: purple">✨ Whatever you want ✨</strong></li>
                     <hr>
                     <br>
+                    <?php 
+                        $sql = 'SELECT `user`, `comentario` FROM `blog_comentarios`';
+                        $do = mysqli_query($link, $sql);
+
+                        while ($comentarios = mysqli_fetch_assoc($do)){
+                            echo('<p>'.$comentarios['comentario'].'</p>');
+                        }
+
+                    ?>
                 </ul>
                 <form action="api.php" method="post" class="form-msg">
                     <div class="field-row name">
@@ -230,7 +242,7 @@
                         <option>3 - Pretty good</option>
                         <option>2 - Not so great</option>
                         <option>1 - Oof</option>
-                      </select>
+                    </select>
                     <button class="post-boton">POST</button>
                 </form>
             </section>
