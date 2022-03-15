@@ -32,8 +32,8 @@
        
     </header>
     
-    <div id="main-window" class="window drag" >
-        <div id="window-header" class="title-bar bar-drag" onmouseenter="dragElement(this)">
+    <div id="main-window" class="window" >
+        <div id="window-header" class="title-bar" onmouseenter="dragElement(this)">
             <div class="tittle-bar-text" style="margin: 0px 0px 0px 10px;">Always is connected</div>
             <div class="title-bar-controls">
                 <button aria-label="Help" onclick="help_show();"></button>
@@ -151,7 +151,7 @@
         </div>
     </div>
     <div hidden id="window-help" class="window drag">
-        <div id="window-header" class="title-bar bar-drag" onmouseenter="dragElement(this)">
+        <div id="window-header" class="title-bar" onmouseenter="dragElement(this)">
             <div class="title-bar-text">Help</div>
             <div class="title-bar-controls">
               <button aria-label="Minimize"></button>
@@ -170,8 +170,8 @@
           </div>
     </div>
     <div hidden id="window-furry" class="window drag" style="width:auto">
-        <div class="title-bar bar-drag">
-            <div class="title-bar-text">Mmmmmmmmmmmmm 👀</div>
+        <div class="title-bar" onmouseenter="dragElement(this)">
+            <div class="title-bar-text">Mmmmmmmmmmmmm <span id="deep" onclick="deep();">👀</span></div>
           <div class="title-bar-controls">
             <button aria-label="Close" onclick="furry_close();"></button>
           </div>

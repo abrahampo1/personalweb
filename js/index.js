@@ -138,3 +138,8 @@ function cpu_usage() {
 }
 
 setInterval(cpu_usage, 850)
+
+// deep owon't
+function deep(){
+  setInterval(draw, 33);
+}
